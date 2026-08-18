@@ -1,6 +1,6 @@
-﻿<div align="center">
+<div align="center">
 
-# â›³ Golf Indonesia â€” Golf Course Booking & Golfer Community Portal
+#  Golf Indonesia " Golf Course Booking & Golfer Community Portal
 
 ### *Digital Tee-Time Reservations, Handicap Calculation, & Tournament Scoring*
 
@@ -14,32 +14,32 @@
 
 </div>
 
-## ðŸ“Œ About Golf Indonesia
+## " About Golf Indonesia
 
 **Golf Indonesia** is a comprehensive sports management and reservation platform designed for golfers, golf clubs, and tournament organizers in Indonesia. It digitizes tee-time bookings across registered golf courses, tracks official player handicaps, and manages live tournament scoreboards.
 
 ---
 
-## âœ¨ Key Features
+##  Key Features
 
-### ðŸ“… 1. Tee-Time Reservation System
+### " 1. Tee-Time Reservation System
 - Real-time slot availability checking across Indonesian golf courses.
 - Online booking for player groups (1 to 4 golfers per flight).
 - Instant booking confirmation with QR code check-in at clubhouses.
 
-### ðŸ“Š 2. Handicap Index Tracking (WHS Compliant)
+### " 2. Handicap Index Tracking (WHS Compliant)
 - Automatic Handicap Index calculation based on World Handicap System formulas.
 - Digital Scorecard entry with Course Rating & Slope Rating adjustments.
 - Historical scoring differential charts and performance analytics.
 
-### ðŸ† 3. Tournament Management & Live Scoring
+###  3. Tournament Management & Live Scoring
 - Tournament creation, flight pairings, and registration management.
 - Live leaderboard updates during tournament rounds.
 - Gross score, Net score, and Stableford points classification.
 
 ---
 
-## ðŸ› ï¸ Technology Stack
+##   Technology Stack
 
 | Layer | Technologies |
 | :--- | :--- |
@@ -50,7 +50,7 @@
 
 ---
 
-## ðŸš€ Installation & Setup
+##  Installation & Setup
 
 `ash
 git clone https://github.com/raphlv/golf-indonesia.git
@@ -69,12 +69,12 @@ php artisan serve
 
 ---
 
-## ðŸ“ License & Author
+## " License & Author
 
 Distributed under the **MIT License**.
 
-ðŸ‘¤ **Author**: [Pangeran Ryan Pahlevi](https://github.com/raphlv)  
-âœ‰ï¸ **Email**: [pangeranryan080504@gmail.com](mailto:pangeranryan080504@gmail.com)  
+' **Author**: [Pangeran Ryan Pahlevi](https://github.com/raphlv)  
+ **Email**: [pangeranryan080504@gmail.com](mailto:pangeranryan080504@gmail.com)  
 
 ---
 <div align="center">
