@@ -1,129 +1,82 @@
 ﻿<div align="center">
 
-# Golf Indonesia - Course Reservation & Community Portal
+# â›³ Golf Indonesia â€” Golf Course Booking & Golfer Community Portal
 
-### *Digital Tee-Time Booking & Golfer Community Platform*
+### *Digital Tee-Time Reservations, Handicap Calculation, & Tournament Scoring*
 
-![PHP](https://img.shields.io/badge/PHP-informational?style=for-the-badge&logo=PHP&logoColor=white) ![Laravel](https://img.shields.io/badge/Laravel-informational?style=for-the-badge&logo=Laravel&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-informational?style=for-the-badge&logo=MySQL&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind-informational?style=for-the-badge&logo=Tailwind&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-informational?style=for-the-badge&logo=JavaScript&logoColor=white)
-
-![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen?style=for-the-badge)
+![PHP](https://img.shields.io/badge/PHP-8.2-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![Laravel](https://img.shields.io/badge/Laravel-10.x-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-5.0-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
-![Maintained](https://img.shields.io/badge/Maintained-Yes-orange?style=for-the-badge)
 
 ---
 
 </div>
 
-## ðŸ“Œ Overview
+## ðŸ“Œ About Golf Indonesia
 
-Golf Indonesia is a comprehensive digital platform offering golf course tee-time reservations, tournament leaderboards, handicap tracking, and golfer community interaction.
-
-Developed to provide a robust, clean, and production-ready architecture tailored for Sports & Reservation Management requirements.
+**Golf Indonesia** is a comprehensive sports management and reservation platform designed for golfers, golf clubs, and tournament organizers in Indonesia. It digitizes tee-time bookings across registered golf courses, tracks official player handicaps, and manages live tournament scoreboards.
 
 ---
 
 ## âœ¨ Key Features
 
-- **Real-time Tee-Time Slot Booking & Payment Integration**
-- **Official USGA/WHS Player Handicap Index Calculator**
-- **Tournament Registration, Pairings, & Live Scoreboards**
-- **Club Member Profiles & Digital Handicap Cards**
-- **Golf Course Directory & Facility Reviews**
+### ðŸ“… 1. Tee-Time Reservation System
+- Real-time slot availability checking across Indonesian golf courses.
+- Online booking for player groups (1 to 4 golfers per flight).
+- Instant booking confirmation with QR code check-in at clubhouses.
+
+### ðŸ“Š 2. Handicap Index Tracking (WHS Compliant)
+- Automatic Handicap Index calculation based on World Handicap System formulas.
+- Digital Scorecard entry with Course Rating & Slope Rating adjustments.
+- Historical scoring differential charts and performance analytics.
+
+### ðŸ† 3. Tournament Management & Live Scoring
+- Tournament creation, flight pairings, and registration management.
+- Live leaderboard updates during tournament rounds.
+- Gross score, Net score, and Stableford points classification.
 
 ---
 
 ## ðŸ› ï¸ Technology Stack
 
-| Component | Technologies Used |
+| Layer | Technologies |
 | :--- | :--- |
-| **Backend & Framework** | PHP / Node.js / Laravel / Modular Architecture |
-| **Frontend** | HTML5, CSS3, JavaScript (ES6+), Bootstrap / Tailwind CSS |
-| **Database** | MySQL / MariaDB / Relational Schema |
-| **Tools & Version Control** | Git, Composer, NPM, Laragon / Web Server |
+| **Backend** | PHP 8.2+ / Laravel 10.x |
+| **Frontend** | Blade Templating, Tailwind CSS, Alpine.js |
+| **Database** | MySQL / MariaDB |
+| **Build System** | Vite 5.0 |
 
 ---
 
-## ðŸ“‚ Project Architecture
+## ðŸš€ Installation & Setup
 
+`ash
+git clone https://github.com/raphlv/golf-indonesia.git
+cd golf-indonesia
+
+composer install
+npm install && npm run build
+
+cp .env.example .env
+php artisan key:generate
+
+# Set DB_DATABASE=golf_indonesia in .env
+php artisan migrate --seed
+php artisan serve
 `
-golf-indonesia/
-â”œâ”€â”€ app/               # Core application logic & controllers
-â”œâ”€â”€ config/            # System & environment configuration
-â”œâ”€â”€ database/          # Database migrations, seeders & schema
-â”œâ”€â”€ public/            # Public web assets (CSS, JS, Images)
-â”œâ”€â”€ resources/         # Views, templates & raw assets
-â”œâ”€â”€ routes/            # Web and API routing definitions
-â”œâ”€â”€ storage/           # Logs, cache & application uploads
-â”œâ”€â”€ README.md          # Project documentation
-â””â”€â”€ .gitignore         # Git repository exclusions
-`
-
----
-
-## ðŸš€ Getting Started
-
-### Prerequisites
-
-Ensure you have the following installed on your local environment:
-- **PHP** >= 8.0 or **Node.js** >= 16.x
-- **Composer** / **NPM**
-- **MySQL** / **MariaDB**
-- Web Server (**Laragon** / **XAMPP** / **Apache** / **Nginx**)
-
-### Installation Steps
-
-1. **Clone the repository**
-   `ash
-   git clone https://github.com/raphlv/golf-indonesia.git
-   cd golf-indonesia
-   `
-
-2. **Install Dependencies**
-   `ash
-   composer install
-   # or
-   npm install
-   `
-
-3. **Environment Configuration**
-   Copy the .env.example file and configure your database settings:
-   `ash
-   cp .env.example .env
-   `
-
-4. **Database Setup & Migration**
-   `ash
-   php artisan migrate --seed
-   `
-
-5. **Run Local Development Server**
-   `ash
-   php artisan serve
-   # or start via Laragon virtual host: http://golf-indonesia.test
-   `
-
----
-
-## ðŸ¤ Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/raphlv/golf-indonesia/issues).
-
-1. Fork the Project
-2. Create your Feature Branch (git checkout -b feature/AmazingFeature)
-3. Commit your Changes (git commit -m 'Add some AmazingFeature')
-4. Push to the Branch (git checkout -b feature/AmazingFeature)
-5. Open a Pull Request
 
 ---
 
 ## ðŸ“ License & Author
 
-Distributed under the **MIT License**. See LICENSE for more information.
+Distributed under the **MIT License**.
 
 ðŸ‘¤ **Author**: [Pangeran Ryan Pahlevi](https://github.com/raphlv)  
 âœ‰ï¸ **Email**: [pangeranryan080504@gmail.com](mailto:pangeranryan080504@gmail.com)  
 
 ---
 <div align="center">
-  <sub>Automated Sync Enabled for Contribution Tracking | Last Updated: 2026-08-18 14:20:38</sub>
+  <sub>Automated Sync Enabled for Contribution Tracking | Last Updated: 2026-08-18 14:37:04</sub>
 </div>
