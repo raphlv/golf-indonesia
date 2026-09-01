@@ -19,5 +19,37 @@ National golf tournament management software featuring real-time hole-by-hole sc
 
 ---
 
+## Key Features
+
+- Hole-by-Hole Live Scoring: 18-hole score entry with automatic handicap stroke indexing.
+- Dynamic Leaderboard: Real-time tournament ranking sorted by Gross Score, Net Score, and Thru hole count.
+- Yardage Book Store: E-commerce catalog for purchasing official course topography guides.
+- Player Handicap Ledger: Tracks historic rounds to calculate official handicap indexes.
+
+---
+
+## Technology Stack
+
+- Backend: Laravel 10 (PHP 8.2)
+- Database: MySQL 8.0 (Player, EventScore, EventPar models)
+- Frontend: Bootstrap 5.3
+
+---
+
+## Getting Started
+
+`ash
+git clone https://github.com/raphlv/golf-indonesia.git
+cd golf-indonesia
+composer install
+npm install && npm run build
+cp .env.example .env
+php artisan key:generate
+php artisan migrate --seed
+php artisan serve
+`
+
+---
+
 ## Developer and Maintainer
 Pangeran Ryan Pahlevi - https://pangeranryan.vercel.app
