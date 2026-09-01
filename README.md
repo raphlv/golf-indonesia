@@ -1,8 +1,8 @@
-﻿<div align="center">
+<div align="center">
 
-# Golf Indonesia â€” Tournament Management & Live Scoring Platform
+# Golf Indonesia - Tournament Management and Live Scoring Platform
 
-### *Dynamic Leaderboard, Par Matrix Calculations, & Yardage Book E-Commerce*
+### *Dynamic Leaderboard, Par Matrix Calculations, and Yardage Book E-Commerce*
 
 ![PHP](https://img.shields.io/badge/PHP-8.2-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![Laravel](https://img.shields.io/badge/Laravel-10.x-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
@@ -20,7 +20,4 @@ National golf tournament management software featuring real-time hole-by-hole sc
 ---
 
 ## Developer and Maintainer
-Pangeran Ryan Pahlevi â€” https://pangeranryan.vercel.app
-
-<!-- Last verified: 2026-09-01 13:10:43 by Pangeran Ryan Pahlevi -->
-
+Pangeran Ryan Pahlevi - https://pangeranryan.vercel.app
