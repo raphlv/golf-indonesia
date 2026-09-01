@@ -1,6 +1,6 @@
 ﻿<div align="center">
 
-# â›³ Golf Indonesia â€” Tournament Management & Live Scoring Platform
+# Golf Indonesia â€” Tournament Management & Live Scoring Platform
 
 ### *Dynamic Leaderboard, Par Matrix Calculations, & Yardage Book E-Commerce*
 
@@ -13,9 +13,14 @@
 
 </div>
 
-## ðŸ“Œ About The Project
+## About The Project
 
-National golf tournament management software featuring real-time hole-by-hole scoring, automatic gross/net calculation, player handicap tracking, and online yardage book store.
+National golf tournament management software featuring real-time hole-by-hole scoring, automatic gross and net calculations, player handicap tracking, and an online yardage book store.
 
-<!-- Last verified & polished: 2026-09-01 13:08:36 by Pangeran Ryan Pahlevi -->
+---
+
+## Developer and Maintainer
+Pangeran Ryan Pahlevi â€” https://pangeranryan.vercel.app
+
+<!-- Last verified: 2026-09-01 13:10:43 by Pangeran Ryan Pahlevi -->
 
